@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Keenan Webpage</title>
+  </head>
+  <body>
+    <main>
+      <h1>Keenan Ray Bio</h1>
+      <img class="bball" src="/bball.webp" alt="" />
+      <img class="bball1" src="/bball.webp" alt="" />
+      <section aria-labelledby="profile-heading">
+        <h2 id="profile-heading">Profile</h2>
+        <div class="pfp-section">
+          <figure class="pfp">
+            <img
+              class="pfp-img"
+              src="/IMG_0405.JPG"
+              alt="Portrait photo of Keenan Ray"
+            />
+          </figure>
+        </div>
+      </section>
+      <h2 id="about-heading">About Me</h2>
+      <section class="about-container" aria-labelledby="about-heading">
+        <p class="abt-me">
+          I am <em>currently</em> a grad student at Texas A&M University set to
+          graduate Summer 2026. I received my B.S. in Computer Science in 2024.
+          I <em>currently</em> work for a <em>Software Squadron</em> in the
+          <strong>Air Force</strong> as a <strong>Software Engineer</strong>. In
+          my free time, I enjoy playing basketball and watching anime. Here is a
+          video of me dropping 40 points in a mens league game.
+          <a href="https://youtu.be/2Zuf9cqzsLg?si=zWyzZaA944BcOwu_"
+            >40 Point basketball Game</a
+          >
+        </p>
+      </section>
+      <h2 id="music-heading">Music Taste</h2>
+      <section id="music-section" aria-labelledby="music-heading">
+        <div class="music-section">
+          <section class="left-section" aria-labelledby="artists-heading">
+            <h3 id="artists-heading">Favorite Artists</h3>
+            <ol>
+              <li class="artist-li">
+                <figure class="content">
+                  <img
+                    class="artist-img"
+                    src="/jcole.webp"
+                    alt="Promotional image of rapper J. Cole"
+                  />
+                  <figcaption>J. Cole</figcaption>
+                </figure>
+              </li>
+
+              <li class="artist-li">
+                <figure class="content">
+                  <img
+                    class="artist-img"
+                    src="/xenia.png"
+                    alt="Artist image for Xenia"
+                  />
+                  <figcaption>Xenia</figcaption>
+                </figure>
+              </li>
+
+              <li class="artist-li">
+                <figure class="content">
+                  <img
+                    class="artist-img"
+                    src="/normandie.webp"
+                    alt="Band image of Normandie"
+                  />
+                  <figcaption>Normandie</figcaption>
+                </figure>
+              </li>
+
+              <li class="artist-li">
+                <figure class="content">
+                  <img
+                    class="artist-img"
+                    src="/badomens.webp"
+                    alt="Band image of Bad Omens"
+                  />
+                  <figcaption>Bad Omens</figcaption>
+                </figure>
+              </li>
+            </ol>
+          </section>
+
+          <section aria-labelledby="songs-heading" class="right-section">
+            <h3 id="songs-heading">Favorite Songs</h3>
+            <ol>
+              <li class="artist-li">
+                <figure class="content">
+                  <img
+                    class="artist-img"
+                    src="/thegrey.webp"
+                    alt="Album artwork for the song The Grey"
+                  />
+                  <figcaption>The Grey</figcaption>
+                </figure>
+              </li>
+
+              <li class="artist-li">
+                <figure class="content">
+                  <img
+                    class="artist-img"
+                    src="/poor thang.webp"
+                    alt="Album artwork for the song Poor Thang"
+                  />
+                  <figcaption>Poor Thang</figcaption>
+                </figure>
+              </li>
+
+              <li class="artist-li">
+                <figure class="content">
+                  <img
+                    class="artist-img"
+                    src="/2bodyproblem.png"
+                    alt="Album artwork for the song 2 Body Problem"
+                  />
+                  <figcaption>2 Body Problem</figcaption>
+                </figure>
+              </li>
+
+              <li class="artist-li">
+                <figure class="content">
+                  <img
+                    class="artist-img"
+                    src="/lostintheviolence.webp"
+                    alt="Album artwork for the song Lost in the Violence"
+                  />
+                  <figcaption>Lost in the Violence</figcaption>
+                </figure>
+              </li>
+            </ol>
+          </section>
+        </div>
+      </section>
+      <h2 id="contact-heading">Contact Me</h2>
+      <section id="contact-section" aria-labelledby="contact-heading">
+        <form
+          class="email-form"
+          action="mailto:kwdm@tamu.edu"
+          method="POST"
+          enctype="text/plain"
+        >
+          <div class="form-input">
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name" required />
+          </div>
+
+          <div class="form-input">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" required />
+          </div>
+
+          <div class="form-input">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <div class="button-row">
+            <button type="submit">Send Message</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
